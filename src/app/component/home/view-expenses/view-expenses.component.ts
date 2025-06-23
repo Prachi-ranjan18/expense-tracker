@@ -11,9 +11,10 @@ import { AuthService } from 'src/app/auth/auth.service';
 import { ViewSingleComponent } from '../view-single/view-single.component';
 import { ShowChartComponent } from '../show-chart/show-chart.component';
 @Component({
-  selector: 'app-view-expenses',
-  templateUrl: './view-expenses.component.html',
-  styleUrls: ['./view-expenses.component.scss'],
+    selector: 'app-view-expenses',
+    templateUrl: './view-expenses.component.html',
+    styleUrls: ['./view-expenses.component.scss'],
+    standalone: false
 })
 export class ViewExpensesComponent implements OnInit {
   @ViewChild(MatPaginator) paginator!: MatPaginator;
@@ -205,8 +206,9 @@ export class ViewExpensesComponent implements OnInit {
 }
 
 @Component({
-  selector: 'confirm',
-  templateUrl: 'confirm.html',
+    selector: 'confirm',
+    templateUrl: 'confirm.html',
+    standalone: false
 })
 export class Confirm{
   constructor(

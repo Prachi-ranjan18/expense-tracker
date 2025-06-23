@@ -6,9 +6,10 @@ import { AlertBoxComponent } from 'src/app/shared/alert-box/alert-box.component'
 import { ProfileComponent } from 'src/app/shared/profile/profile.component';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.scss'],
+    selector: 'app-home',
+    templateUrl: './home.component.html',
+    styleUrls: ['./home.component.scss'],
+    standalone: false
 })
 export class HomeComponent implements OnInit {
   isLogging: any;

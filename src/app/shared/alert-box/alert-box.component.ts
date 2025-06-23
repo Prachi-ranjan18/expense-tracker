@@ -6,9 +6,10 @@ import { AuthService } from 'src/app/auth/auth.service';
 import { environment } from 'src/environments/environment';
 
 @Component({
-  selector: 'app-alert-box',
-  templateUrl: './alert-box.component.html',
-  styleUrls: ['./alert-box.component.scss']
+    selector: 'app-alert-box',
+    templateUrl: './alert-box.component.html',
+    styleUrls: ['./alert-box.component.scss'],
+    standalone: false
 })
 export class AlertBoxComponent implements OnInit{
   type:any;

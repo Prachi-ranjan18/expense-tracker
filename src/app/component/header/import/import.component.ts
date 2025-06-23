@@ -6,9 +6,10 @@ import { BusinessDataService } from 'src/app/services/business-data.service';
 import { AlertBoxComponent } from 'src/app/shared/alert-box/alert-box.component';
 
 @Component({
-  selector: 'app-import',
-  templateUrl: './import.component.html',
-  styleUrls: ['./import.component.scss'],
+    selector: 'app-import',
+    templateUrl: './import.component.html',
+    styleUrls: ['./import.component.scss'],
+    standalone: false
 })
 export class ImportComponent implements OnInit {
   isCorrect: boolean = false;

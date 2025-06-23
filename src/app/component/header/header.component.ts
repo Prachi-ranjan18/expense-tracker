@@ -7,9 +7,10 @@ import { AlertBoxComponent } from 'src/app/shared/alert-box/alert-box.component'
 import { ProfileComponent } from 'src/app/shared/profile/profile.component';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
-  styleUrls: ['./header.component.scss']
+    selector: 'app-header',
+    templateUrl: './header.component.html',
+    styleUrls: ['./header.component.scss'],
+    standalone: false
 })
 export class HeaderComponent implements OnInit{
   // isLogging:boolean=true;

@@ -1,9 +1,10 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-welcome-loader',
-  templateUrl: './welcome-loader.component.html',
-  styleUrls: ['./welcome-loader.component.scss']
+    selector: 'app-welcome-loader',
+    templateUrl: './welcome-loader.component.html',
+    styleUrls: ['./welcome-loader.component.scss'],
+    standalone: false
 })
 export class WelcomeLoaderComponent {
   @Input() msg :any;

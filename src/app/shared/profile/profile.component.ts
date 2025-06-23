@@ -6,9 +6,10 @@ import { AlertBoxComponent } from '../alert-box/alert-box.component';
 import { environment } from 'src/environments/environment';
 
 @Component({
-  selector: 'app-profile',
-  templateUrl: './profile.component.html',
-  styleUrls: ['./profile.component.scss']
+    selector: 'app-profile',
+    templateUrl: './profile.component.html',
+    styleUrls: ['./profile.component.scss'],
+    standalone: false
 })
 export class ProfileComponent implements OnInit{
   user_name:any='';

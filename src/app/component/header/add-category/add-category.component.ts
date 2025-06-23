@@ -2,9 +2,10 @@ import { Component, EventEmitter, OnInit, Output } from '@angular/core';
 import { BusinessDataService } from 'src/app/services/business-data.service';
 import { MatChipInputEvent } from '@angular/material/chips';
 @Component({
-  selector: 'app-add-category',
-  templateUrl: './add-category.component.html',
-  styleUrls: ['./add-category.component.scss']
+    selector: 'app-add-category',
+    templateUrl: './add-category.component.html',
+    styleUrls: ['./add-category.component.scss'],
+    standalone: false
 })
 export class AddCategoryComponent implements OnInit{
   @Output() categoryAdded = new EventEmitter<string>();

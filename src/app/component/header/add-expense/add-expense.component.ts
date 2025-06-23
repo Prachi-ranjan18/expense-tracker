@@ -5,9 +5,10 @@ import { ActivatedRoute, ParamMap, Params, Router } from '@angular/router';
 import { ThemeService } from 'ng2-charts';
 import { BusinessDataService } from 'src/app/services/business-data.service';
 @Component({
-  selector: 'app-add-expense',
-  templateUrl: './add-expense.component.html',
-  styleUrls: ['./add-expense.component.scss'],
+    selector: 'app-add-expense',
+    templateUrl: './add-expense.component.html',
+    styleUrls: ['./add-expense.component.scss'],
+    standalone: false
 })
 export class AddExpenseComponent implements OnInit {
   expenseForm!: FormGroup;

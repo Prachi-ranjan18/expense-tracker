@@ -4,9 +4,10 @@ import {MatDialog, MAT_DIALOG_DATA, MatDialogModule} from '@angular/material/dia
 
 
 @Component({
-  selector: 'app-view-single',
-  templateUrl: './view-single.component.html',
-  styleUrls: ['./view-single.component.scss']
+    selector: 'app-view-single',
+    templateUrl: './view-single.component.html',
+    styleUrls: ['./view-single.component.scss'],
+    standalone: false
 })
 export class ViewSingleComponent implements OnInit{
   tableData:any=[];
